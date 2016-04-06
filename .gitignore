@@ -1,0 +1,7 @@
+*/bin
+*/obj
+*.user-settings.xml
+Bluetooth/node_modules
+Bluetooth/platforms
+Bluetooth/lib
+Bluetooth/hooks
