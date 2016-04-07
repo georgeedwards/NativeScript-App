@@ -1,11 +1,11 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:FAB="nativescript-floatingactionbutton">
   <GridLayout columns="*, *, *, *" rows="15*, 5*, 20*, 5*, 5*, 5*, 5*, 20*, 20*" width="100%" height="100%" style.backgroundColor="white" >
     <Image src="res://logo" row="0" col="1" colSpan="2" stretch ="aspectFit"/>
-    <Label text="Gas-Bottle" row="2" col="0" rowSpan="6" colSpan="2" backgroundColor="blue"/>
-    <Label text="Label 1" row="3" col="2" colSpan="2"/>
-    <Label text="Label 2" row="4" col="2" colSpan="2"/>
-    <Label text="Label 3" row="5" col="2" colSpan="2"/>
-    <Label text="Label 4" row="6" col="2" colSpan="2"/>
+    <Image src="res://bottle_outline" row="2" col="0" rowSpan="6" colSpan="2" stretch="aspectFit" class="bottle"/>
+    <Label text="Percentage Fill:" row="3" col="2" colSpan="2"/>
+    <Label text="-" row="4" col="2" colSpan="2"/>
+    <Label text="Replacement Due:" row="5" col="2" colSpan="2"/>
+    <Label text="-" row="6" col="2" colSpan="2"/>
     <Label text="b1" row="8" col="0" backgroundColor="red"/>
     <Label text="b2" row="8" col="1" backgroundColor="green"/>
     <Label text="b3" row="8" col="2" backgroundColor="blue"/>

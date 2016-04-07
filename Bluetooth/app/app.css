@@ -70,3 +70,11 @@ button {
   font-size: 10;
 }
 
+  .bottle {
+      background-image: res://bottle_fill;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: contain;
+      background-position: 50% 30%;
+  }
+  
