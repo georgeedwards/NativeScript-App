@@ -1,6 +1,7 @@
 var observable = require("data/observable");
 var observableArray = require("data/observable-array");
 var frameModule = require("ui/frame");
+var dockModule = require("ui/layouts/dock-layout");
 var bluetooth = require("nativescript-bluetooth");
 var dialogs = require("ui/dialogs");
 var DemoAppModel = (function (_super) {

@@ -16,6 +16,7 @@
 
 label {
   font-size: 16;
+  text-align: center;
 }
 
 .hint {
@@ -68,3 +69,4 @@ button {
 .rssi-label {
   font-size: 10;
 }
+
