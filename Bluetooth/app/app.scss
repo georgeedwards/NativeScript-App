@@ -74,31 +74,34 @@ button {
   font-size: 10;
 }
 
+.bottle {
+    background-image: url('res://bottle_fill');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: 50% 30%;
+}
+  
 .fab-button {
     height: 50;
     margin: 15;
     horizontal-align: right; 
     vertical-align: bottom; 
 }
-
-  .bottle {
-      background-image: url('res://bottle_fill');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: contain;
-      background-position: 50% 30%;
-  }
   
-      .add{
-          background-color: #4a8daf;
-      }
-      .login {
-          background-color: #de574b;
-      }
-      .bluetooth {
-          background-color: #3cab96;
-      }
-      .help {
-          background-color: #f59a43;
-      }
+.add {
+    background-color: #4a8daf;
+}
+
+.login {
+    background-color: #de574b;
+}
+
+.bluetooth {
+    background-color: #3cab96;
+}
+
+.help {
+    background-color: #f59a43;
+}
  
