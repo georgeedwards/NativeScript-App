@@ -133,6 +133,10 @@ var DemoAppModel = (function (_super) {
       });
     });
   };
+  
+  exports.fabTap = function(args) {
+    console.log('tapped');
+  }
 
 /*
   DemoAppModel.prototype.doWrite = function () {

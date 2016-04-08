@@ -6,9 +6,9 @@
     <Label text="-" row="4" col="2" colSpan="2"/>
     <Label text="Replacement Due:" row="5" col="2" colSpan="2"/>
     <Label text="-" row="6" col="2" colSpan="2"/>
-    <Label text="b1" row="8" col="0" backgroundColor="red"/>
-    <Label text="b2" row="8" col="1" backgroundColor="green"/>
-    <Label text="b3" row="8" col="2" backgroundColor="blue"/>
-    <Label text="b4" row="8" col="3" backgroundColor="yellow"/>
+    <FAB:fab tap="fabTap" row="8" col="0" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button help"/>
+    <FAB:fab tap="fabTap" row="8" col="1" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button bluetooth"/>
+    <FAB:fab tap="fabTap" row="8" col="2" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button login"/>
+    <FAB:fab tap="fabTap" row="8" col="3" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button add"/>
   </GridLayout>
 </Page>
