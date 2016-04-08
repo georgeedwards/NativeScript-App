@@ -1,14 +1,14 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:FAB="nativescript-floatingactionbutton">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:FAB="nativescript-floatingactionbutton" actionBarHidden="true">
   <GridLayout columns="*, *, *, *" rows="15*, 5*, 20*, 5*, 5*, 5*, 5*, 20*, 20*" width="100%" height="100%" style.backgroundColor="white" >
-    <Image src="res://logo" row="0" col="1" colSpan="2" stretch ="aspectFit"/>
+    <Image src="res://logo" row="0" col="1" colSpan="2" stretch ="aspectFit" class="logo"/>
     <Image src="res://bottle_outline" row="2" col="0" rowSpan="6" colSpan="2" stretch="aspectFit" class="bottle"/>
     <Label text="Percentage Fill:" row="3" col="2" colSpan="2"/>
     <Label text="-" row="4" col="2" colSpan="2"/>
     <Label text="Replacement Due:" row="5" col="2" colSpan="2"/>
     <Label text="-" row="6" col="2" colSpan="2"/>
-    <FAB:fab tap="fabTap" row="8" col="0" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button help"/>
-    <FAB:fab tap="fabTap" row="8" col="1" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button bluetooth"/>
-    <FAB:fab tap="fabTap" row="8" col="2" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button login"/>
-    <FAB:fab tap="fabTap" row="8" col="3" icon="res://ic_add_white" rippleColor="#f1f1f1" class="fab-button add"/>
+    <FAB:fab tap="fabTap" row="8" col="0" icon="res://help" rippleColor="#f1f1f1" class="fab-button help"/>
+    <FAB:fab tap="fabTap" row="8" col="1" icon="res://bluetoothg" rippleColor="#f1f1f1" class="fab-button bluetooth"/>
+    <FAB:fab tap="fabTap" row="8" col="2" icon="res://key" rippleColor="#f1f1f1" class="fab-button login"/>
+    <FAB:fab tap="fabTap" row="8" col="3" icon="res://plus" rippleColor="#f1f1f1" class="fab-button add"/>
   </GridLayout>
 </Page>
