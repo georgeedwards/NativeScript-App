@@ -8,6 +8,9 @@
     <Label text="-" row="6" col="2" colSpan="2"/>
     <FAB:fab tap="fabTap" row="8" col="0" icon="res://help" rippleColor="#f1f1f1" class="fab-button help"/>
     <FAB:fab tap="fabTap" row="8" col="1" icon="res://bluetoothg" rippleColor="#f1f1f1" class="fab-button bluetooth"/>
+    <FAB:fab tap="fabTap" row="8" col="2" icon="res://key" rippleColor="#f1f1f1" class="fab-button facebook" id="socialOption"/>
+    <FAB:fab tap="fabTap" row="8" col="2" icon="res://key" rippleColor="#f1f1f1" class="fab-button google" id="socialOption"/>
+    <FAB:fab tap="fabTap" row="8" col="2" icon="res://key" rippleColor="#f1f1f1" class="fab-button amazon" id="socialOption"/>
     <FAB:fab tap="fabTap" row="8" col="2" icon="res://key" rippleColor="#f1f1f1" class="fab-button login"/>
     <FAB:fab tap="fabTap" row="8" col="3" icon="res://plus" rippleColor="#f1f1f1" class="fab-button add"/>
   </GridLayout>

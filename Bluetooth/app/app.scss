@@ -89,8 +89,13 @@ button {
     vertical-align: bottom; 
 }
   
+.google, .amazon, .facebook {
+    visibility: collapse;
+}
+
 .add {
     background-color: #4a8daf;
+    visibility: hidden;
 }
 
 .login {
