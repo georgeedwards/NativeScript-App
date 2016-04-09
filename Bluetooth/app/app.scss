@@ -74,12 +74,12 @@ button {
   font-size: 10;
 }
 
-.bottle {
+#bottle {
     background-image: url('res://bottle_fill');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    background-position: 50% 30%;
+    background-position: 50% 0%;
 }
   
 .fab-button {

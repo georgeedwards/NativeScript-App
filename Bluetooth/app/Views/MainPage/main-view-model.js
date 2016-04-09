@@ -4,11 +4,13 @@ var frameModule = require("ui/frame");
 var dockModule = require("ui/layouts/dock-layout");
 var bluetooth = require("nativescript-bluetooth");
 var dialogs = require("ui/dialogs");
+
 var DemoAppModel = (function (_super) {
   __extends(DemoAppModel, _super);
   function DemoAppModel() {
     _super.call(this);
   }
+  var page;
   
   DemoAppModel.prototype.doIsBluetoothEnabled = function () {
     bluetooth.isBluetoothEnabled().then(function(enabled) {
@@ -134,9 +136,6 @@ var DemoAppModel = (function (_super) {
     });
   };
   
-  exports.fabTap = function(args) {
-    console.log('tapped');
-  }
 
 /*
   DemoAppModel.prototype.doWrite = function () {

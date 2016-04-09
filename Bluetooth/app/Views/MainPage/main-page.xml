@@ -1,7 +1,7 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:FAB="nativescript-floatingactionbutton" actionBarHidden="true">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:FAB="nativescript-floatingactionbutton" actionBarHidden="true" loaded="pageLoaded">
   <GridLayout columns="*, *, *, *" rows="15*, 5*, 20*, 5*, 5*, 5*, 5*, 20*, 20*" width="100%" height="100%" style.backgroundColor="white" >
-    <Image src="res://logo" row="0" col="1" colSpan="2" stretch ="aspectFit" class="logo"/>
-    <Image src="res://bottle_outline" row="2" col="0" rowSpan="6" colSpan="2" stretch="aspectFit" class="bottle"/>
+    <Image src="res://logo" row="0" col="1" colSpan="2" stretch ="aspectFit" class="logo" />
+    <Image id="bottle" src="res://bottle_outline" row="2" col="0" rowSpan="6" colSpan="2" stretch="aspectFit"/>
     <Label text="Percentage Fill:" row="3" col="2" colSpan="2"/>
     <Label text="-" row="4" col="2" colSpan="2"/>
     <Label text="Replacement Due:" row="5" col="2" colSpan="2"/>

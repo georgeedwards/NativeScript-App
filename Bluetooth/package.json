@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "nativescript-bluetooth": "^1.1.1",
+    "nativescript-dom": "^1.0.3",
     "nativescript-floatingactionbutton": "^2.1.3",
     "tns-core-modules": "^1.7.0"
   },
